@@ -1,0 +1,76 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titulo {
+    margin: 80px;    
+    text-align: center;
+}
+
+
+body {
+    background-color: pink;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 100px;
+    gap: 0px;
+    justify-content: space-around; 
+    align-items: center;
+}
+.card {
+    width: 300px;
+    height:600px;
+    font-size:medium;
+    margin: 10px;
+    border-radius: 10px;
+    overflow:hidden;
+    background-color:hotpink; 
+    box-shadow: 0px 1px 10 px rgba(0, 0, 0,0,2);
+    transition: all 300ms ease;
+
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0,4);
+    transform: translateY(-5%)
+
+}
+.card img{
+    width: 100%;
+    height:300px;
+}
+.card h1{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 24 px;
+    color: whitesmoke; 
+    align-items:center;
+}
+.card .contenido{
+    padding: 15px;
+    text-align: center;
+}
+.card .contenido p{
+    line-height: 1.5; 
+    color:whitesmoke
+}
+
+.card .contenido button{
+    display: inline-flexbox;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: pink;
+    border-radius: 10px;
+    padding: 10px;
+}
+.card .contenido button:hover{
+    background: radial-gradient(50px 100px gold, rgb(72,72,237));
+    color: purple;
+}
+
+
+
